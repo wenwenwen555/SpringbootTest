@@ -12,7 +12,7 @@ public class UserController {
     }
     @RequestMapping("Say")
     public String say(){
-        return "hello world";
+        return "hello world github";
     }
 
     @RequestMapping("logout")
