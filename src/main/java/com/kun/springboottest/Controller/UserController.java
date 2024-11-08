@@ -10,6 +10,11 @@ public class UserController {
     public String login(){
         return "login success!";
     }
+    @RequestMapping("Say")
+    public String say(){
+        return "hello world";
+    }
+
     @RequestMapping("logout")
     public String logout(){
         return "logout success!!!";
