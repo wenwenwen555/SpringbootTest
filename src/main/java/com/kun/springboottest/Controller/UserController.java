@@ -9,6 +9,9 @@ public class UserController {
     @RequestMapping("login")
     public String login(){
         return "login success!";
-
+    }
+    @RequestMapping("logout")
+    public String logout(){
+        return "logout success!!!";
     }
 }
